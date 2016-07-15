@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+}
+
+.right-aligned {
+    text-align: right;
+    margin-top: 9px;
+}
+
+.padding-added {
+    padding: 3px;
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .right-aligned {
+        text-align: left;
+    }
+}
